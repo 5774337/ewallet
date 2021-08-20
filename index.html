@@ -12,6 +12,36 @@
 </head>
 
 <body>
+    <!-- pop-up -->
+    <div id="popupbackground">
+        <div id="popup">
+            <form>
+                <label for="title">Título</label>
+                <input type="text" name="title" placeholder="Descrição do lançamento" />
+
+                <div>
+                    <label for="price">Preço</label>
+                    <input type="text" name="price" placeholder="Valor em R$">
+
+                    <label for="category">Categoria</label>
+                    <select name="category" id="category">
+                        <option value=""></option>
+                        <option value="entrada">Entrada</option>
+                        <option value="saida">Saída</option>
+                    </select>
+                </div>
+                <div>
+
+                    <label for="identifier">Identificador</label>
+                <input type="text" name="title" placeholder="Descrição da Categoria" />
+
+                <button></button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
     <!-- cabeçalho -->
     <div id="header">
         <div class="content">
@@ -21,27 +51,27 @@
 
     <!-- cards -->
     <div id="cards" class="content">
-            <div class="card">
-                <div class="card-tittle in">
-                    <span>Entradas</span>
-                    <i data-feather="arrow-up-circle"></i>
-                </div>
-                <h1>R$ 7.000,00</h1>
+        <div class="card">
+            <div class="card-tittle in">
+                <span>Entradas</span>
+                <i data-feather="arrow-up-circle"></i>
             </div>
-            <div class="card">
-                <div class="card-tittle out">
-                    <span>Saídas</span>
-                    <i data-feather="arrow-down-circle"></i>
-                </div>
-                <h1>R$ 2.000,00</h1>
+            <h1>R$ 7.000,00</h1>
+        </div>
+        <div class="card">
+            <div class="card-tittle out">
+                <span>Saídas</span>
+                <i data-feather="arrow-down-circle"></i>
             </div>
-            <div class="card total">
-                <div class="card-tittle">
-                    <span>Total</span>
-                    <i data-feather="dollar-sign"></i>
-                </div>
-                <h1>R$ 5.000,00</h1>
+            <h1>R$ 2.000,00</h1>
+        </div>
+        <div class="card total">
+            <div class="card-tittle">
+                <span>Total</span>
+                <i data-feather="dollar-sign"></i>
             </div>
+            <h1>R$ 5.000,00</h1>
+        </div>
     </div>
 
     <!-- tabela -->
